@@ -26,7 +26,9 @@ anonymous-macf/MACFNet.
 
 ## 1. Overview
 
-(https://github.com/user-attachments/files/29279964/framework.pdf)
+<div align="center">
+<img src="figures/framework.png" width="900" />
+</div>
 
 ## 2. Main Environments
 
