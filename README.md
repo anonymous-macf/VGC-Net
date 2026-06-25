@@ -33,14 +33,21 @@ respectively.
 The environment installation process can be carried out as follows:
 
 ```bash
-conda create -n vgcnet python=3.9 -y
-conda activate vgcnet
+# Core Framework
+torch==1.13.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
 
-pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 \
-  --extra-index-url https://download.pytorch.org/whl/cu117
+# Data Processing & Augmentation
+numpy==1.26.4
+opencv-python==4.12.0
+albumentations==2.0.12
+Pillow==11.3.0
 
-pip install numpy opencv-python albumentations pillow
-pip install scikit-learn scipy scikit-image matplotlib tqdm
+# Scientific & Tools
+scikit-learn==1.0.2
+scipy==1.13.1
+matplotlib==3.9.4
+tqdm==4.67.1
 ```
 
 ## 3. Datasets
