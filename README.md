@@ -68,7 +68,7 @@ python main.py
 
 ```
 
-## 5. Test VGC-Net
+## 5. Test the VGC-Net
 
 ```bash
 python evaluate.py 
