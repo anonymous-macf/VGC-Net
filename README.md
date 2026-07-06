@@ -7,7 +7,7 @@ In X-ray coronary angiography (XCA), accurate coronary artery segmentation is cr
 ## 1. Overview
 
 <div align="center">
-<img src="figures/framework.png" width="900" />
+<img src="figures/vgcnet_framework.png" width="900" />
 </div>
 
 ## 2. Main Environments
